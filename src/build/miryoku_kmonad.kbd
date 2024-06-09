@@ -42,19 +42,19 @@ undo	S-del	C-ins	S-ins	again	again	S-ins	C-ins	S-del	undo
 )
 (deflayer U_NAV
 XX	(multi-tap 200 XX (layer-switch U_TAP))	(multi-tap 200 XX (layer-switch U_EXTRA))	(multi-tap 200 XX (layer-switch U_BASE))	XX	again	S-ins	C-ins	S-del	undo
-met	alt	ctl	sft	XX	caps	left	down	up	right
-XX	ralt	(multi-tap 200 XX (layer-switch U_NUM))	(multi-tap 200 XX (layer-switch U_NAV))	XX	ins	home	pgdn	pgup	end
+met	alt	ctl	sft	XX	left	down	up	right	caps
+XX	ralt	(multi-tap 200 XX (layer-switch U_NUM))	(multi-tap 200 XX (layer-switch U_NAV))	XX	home	pgdn	pgup	end	ins
 		XX	XX	XX	ent	spc	del
 )
 (deflayer U_MOUSE
 XX	(multi-tap 200 XX (layer-switch U_TAP))	(multi-tap 200 XX (layer-switch U_EXTRA))	(multi-tap 200 XX (layer-switch U_BASE))	XX	again	S-ins	C-ins	S-del	undo
-met	alt	ctl	sft	XX	XX	kp4	kp2	kp8	kp6
+met	alt	ctl	sft	XX	kp4	kp2	kp8	kp6	XX
 XX	ralt	(multi-tap 200 XX (layer-switch U_SYM))	(multi-tap 200 XX (layer-switch U_MOUSE))	XX	XX	XX	XX	XX	XX
 		XX	XX	XX	#(kp- kp5)	#(kp/ kp5)	#(kp* kp5)
 )
 (deflayer U_MEDIA
 XX	(multi-tap 200 XX (layer-switch U_TAP))	(multi-tap 200 XX (layer-switch U_EXTRA))	(multi-tap 200 XX (layer-switch U_BASE))	XX	XX	XX	XX	XX	XX
-met	alt	ctl	sft	XX	XX	previoussong	vold	volu	nextsong
+met	alt	ctl	sft	XX	previoussong	vold	volu	nextsong	XX
 XX	ralt	(multi-tap 200 XX (layer-switch U_FUN))	(multi-tap 200 XX (layer-switch U_MEDIA))	XX	XX	XX	XX	XX	XX
 		XX	XX	XX	stopcd	playpause	mute
 )
