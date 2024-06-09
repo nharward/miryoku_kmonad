@@ -46,7 +46,7 @@
   q      w      e      r      t           y      u      i      o      p
   a      s      d      f      g           h      j      k      l      ;
   z      x      c      v      b           n      m      ,      .      /
-                bspc   del    end         pgdn   ent    spc
+                rght   bspc   del         ent    spc    up
 #else
   2      3      4      5      6           8      9      0      -      =
   q      w      e      r      t           i      o      p      [      ]
